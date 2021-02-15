@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<launch>
+
+
+  <rosparam command="load" file="$(find px4_wp_nav)/config/param.yaml" />
+  <node pkg="px4_wp_nav" type="wp_nav" name ="px4_wp_nav" output="screen" />
+
+</launch>	
